@@ -139,5 +139,3 @@ jobs:
         env:
           RUSTFLAGS: '-Zinstrument-coverage'
       - uses: actions-rs/grcov@v0.1
-        with:
-          config: .github/grcov.yml
